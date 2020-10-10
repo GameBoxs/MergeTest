@@ -10,7 +10,7 @@ namespace Merge
     {
         static int calculate(int a, int b)
         {
-            return a + b;
+            return a / b; // 나누기로 변경
         }
         static int calculate2(int a, int b)
         {
