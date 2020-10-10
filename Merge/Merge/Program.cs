@@ -12,9 +12,14 @@ namespace Merge
         {
             return a + b;
         }
+        static int calculate2(int a, int b)
+        {
+            return a - b;
+        }
         static void Main(string[] args)
         {
             Console.WriteLine("a와 b의 계산은 :{0}입니다.", calculate(5, 5));
+            Console.WriteLine("a와 b의 계산2는 :{0}입니다.", calculate2(5, 5));
         }
     }
 }
